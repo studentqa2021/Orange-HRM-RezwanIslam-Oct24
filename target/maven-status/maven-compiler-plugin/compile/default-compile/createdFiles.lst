@@ -1,0 +1,5 @@
+com\generic\MasterPageFactory.class
+com\generic\BaseConfig.class
+com\generic\DriverManager.class
+com\util\Highlighter.class
+com\util\Screenshot.class

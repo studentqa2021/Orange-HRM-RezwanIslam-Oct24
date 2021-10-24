@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="2429" started-at="2021-10-24T18:29:14 EDT" finished-at="2021-10-24T18:29:16 EDT">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.AdminListRunner@26a7b76d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="2429" started-at="2021-10-24T18:29:14 EDT" finished-at="2021-10-24T18:29:16 EDT">
+      <class name="com.runner.AdminListRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.runner.AdminListRunner@26a7b76d]" name="setUpClass" is-config="true" duration-ms="282" started-at="2021-10-24T18:29:14 EDT" finished-at="2021-10-24T18:29:14 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.AdminListRunner@26a7b76d]" name="runScenario" duration-ms="81" started-at="2021-10-24T18:29:14 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-24T18:29:14 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["As an Orange HRM user, I can select admin under user role"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify that admin list is visible for Orange HRM]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="writeExtentReport()[pri:0, instance:com.runner.AdminListRunner@26a7b76d]" name="writeExtentReport" is-config="true" duration-ms="330" started-at="2021-10-24T18:29:14 EDT" finished-at="2021-10-24T18:29:15 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeExtentReport -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.runner.AdminListRunner@26a7b76d]" name="tearDownClass" is-config="true" duration-ms="1714" started-at="2021-10-24T18:29:15 EDT" finished-at="2021-10-24T18:29:16 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.runner.AdminListRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

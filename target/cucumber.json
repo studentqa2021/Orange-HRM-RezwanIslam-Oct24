@@ -1,0 +1,125 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Login using valid credentials",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2021-10-24T22:29:14.666Z",
+        "line": 5,
+        "name": "As an Orange HRM user, I can select admin under user role",
+        "description": "",
+        "id": "verify-that-admin-list-is-visible-for-orange-hrm;as-an-orange-hrm-user--i-can-select-admin-under-user-role",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "open the browser and pass the URL",
+            "match": {
+              "location": "com.step.definition.AdminListStepDef.open_the_browser_and_pass_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter username \u0026 password and click login",
+            "match": {
+              "location": "com.step.definition.AdminListStepDef.enter_username_password_and_click_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User verify page title is Orange HRM",
+            "match": {
+              "location": "com.step.definition.AdminListStepDef.user_verify_page_title_is_orange_hrm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User select Admin under user role",
+            "match": {
+              "location": "com.step.definition.AdminListStepDef.user_select_admin_under_user_role()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click on search button",
+            "match": {
+              "location": "com.step.definition.AdminListStepDef.user_click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User verify Dominic Chase is displayed in result set",
+            "match": {
+              "location": "com.step.definition.AdminListStepDef.user_verify_dominic_chase_is_displayed_in_result_set()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user logout of Orange HRM",
+            "match": {
+              "location": "com.step.definition.AdminListStepDef.user_logout_of_orange_hrm()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Verify that admin list is visible for Orange HRM",
+    "description": "",
+    "id": "verify-that-admin-list-is-visible-for-orange-hrm",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Admin%20List.feature",
+    "tags": [
+      {
+        "name": "@Smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
